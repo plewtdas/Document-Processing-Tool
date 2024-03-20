@@ -92,24 +92,3 @@ void Dict::dump_dictionary(string filename)
     }
 }
 
-// int main()
-// {
-//     // Create an instance of the Dict class
-//     Dict* dict=new Dict();
-
-//     // Insert test sentences
-//     dict->insert_sentence(1, 1, 1, 1, "Suck on my test@hello;,cases'");
-//     dict->insert_sentence(1, 1, 1, 2, "Another test nibba balls nibba nibb  sentence for testing.");
-//     dict->insert_sentence(2, 2, 2, 1, "Hello, world!nib.nibber?nibba");
-
-//     // Test case 1: Get word count
-//     cout << "Word count for 'test': " << dict->get_word_count("test") << endl;
-//     cout << "Word count for 'nibba': " << dict->get_word_count("nibba") << endl;
-//     cout << "Word count for 'nibb': " << dict->get_word_count("nibb") << endl;
-
-//     // Test case 2: Dump dictionary
-//     dict->dump_dictionary("dictionary.txt");
-//     cout << "Dictionary dumped to 'dictionary.txt'." << endl;
-//     delete dict;
-//     return 0;
-// }
